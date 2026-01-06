@@ -1,0 +1,8 @@
+package com.ecommerce.cart.service.exception;
+
+public class CartNotFoundException extends RuntimeException {
+
+    public CartNotFoundException(String message) {
+        super(message);
+    }
+}
