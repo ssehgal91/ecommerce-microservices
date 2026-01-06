@@ -177,15 +177,59 @@ POST /orders/checkout?userId=user1
 
 ---
 
-## 10. Screenshots to Attach
+## 10. 📸 Screenshots
 
-* Eureka dashboard
-* Product add/list
-* Cart add/view
-* Order checkout response
-* Kafka topic list
-* Notification service logs
+### 🔹 Service Discovery – Eureka Dashboard
+Shows all registered microservices including API Gateway.
 
+![Eureka Dashboard](screenshots/Eureka Dashboard.png)
+
+---
+
+### 🔹 Dockerized Deployment – Running Containers
+
+Displays all microservices, Kafka, Zookeeper, and supporting services running using Docker Compose.
+
+![Docker PS](screenshots/docker ps.png)
+
+---
+
+### 🔹 Product Service – Add New Product (Postman)
+Admin adding a new product to the inventory.
+
+![Add New Product](screenshots/Add New Product.png)
+
+---
+
+### 🔹 Product Service – View Products (Postman)
+Admin/User fetching product list.
+
+![Product API](screenshots/Add New Product.png)
+
+---
+
+### 🔹 Cart Service – Add to Cart
+
+User adding a product to the cart.
+
+![Add To Cart](screenshots/Add To Cart.png)
+
+---
+
+### 🔹 Cart Service – View Cart
+
+User viewing cart details before checkout.
+
+![View Cart](screenshots/View Cart.png)
+
+---
+
+### 🔹 Order Checkout Flow
+User checkout triggering order creation.
+
+![Order Checkout](screenshots/Checkout.png)
+
+---
 ---
 
 ## 11. Assumptions
